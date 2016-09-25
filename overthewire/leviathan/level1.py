@@ -15,4 +15,4 @@ log.info(sh.recv(timeout=3).decode())
 sh.sendline('cat /etc/leviathan_pass/leviathan2')
 log.success(sh.recv(timeout=10).decode())
 
-#pass
+#pass ougahZi8Ta
