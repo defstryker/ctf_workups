@@ -1,0 +1,3 @@
+## Conquering the lord of the oceans...
+Solutions are not a detailed writeup but the quickest way to get the flag.
+Uses python3 and [python3-pwntools](https://github.com/arthaud/python3-pwntools)
