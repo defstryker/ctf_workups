@@ -1,5 +1,6 @@
 overthewire/bandit/tmp
 overthewire/leviathan/tmp
+overthewire/leviathan/tmp/*
 pwnable
 */.gdb_history
 */peda-*
