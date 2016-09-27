@@ -2,5 +2,6 @@ overthewire/bandit/tmp
 overthewire/leviathan/tmp
 overthewire/leviathan/tmp/*
 pwnable
+exploit-exercises
 */.gdb_history
 */peda-*
